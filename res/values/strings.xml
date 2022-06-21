@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">BD Train Tracker</string>
+    <string name="app_name">BD Train Tracker</string>
+    <string name="goLabel">Dhaka - Chittagong</string>
+    <string name="goLabel1">Dhaka - Dinajpur</string>
+    <string name="goLabel2">Dhaka - Mymensingh</string>
+    <string name="goLabel3">Dhaka - Khulna</string>
+    <string name="goLabel4">Dhaka - Sylhet</string>
+    <string name="overlay_label">Station</string>
+    <string name="access_label">Junction</string>
+    <string name="route_label">Railway</string>
+    <string name="latitude">Latitude : </string>
+    <string name="longitude">Longitude : </string>
+    <string name="accuracy">Accuracy : </string>
+    <string name="provider">Provider : </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_spinners_exercises">Journey Planner:</string>
+    <string name="spinner1_prompt">Choose Journey Start Point</string>
+
+    <string-array name="spinner1_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>Rajshahi</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Dinajpur</item>
+        <item>Chittagong</item>
+        <item>Sylhet</item>
+        <item>Kishoreganj</item>
+        <item>DawangongBazar</item>
+        <item>B.B.SetuPurbo</item>
+        <item>Lalmonirhat</item>
+        <item>Shantahar</item>
+    </string-array>
+
+    <string name="dhaka_prompt">Choose Journey End Point</string>
+    <string name="dhakadnj_prompt">Choose Journey End Point</string>
+
+    <string-array name="dhaka_entries">
+        <item>Select</item>
+        <item>Chittagong</item>
+        <item>Dinajpur</item>
+        <item>DawngongeBazar</item>
+        <item>Sylhet</item>
+        <item>Noakhali</item>
+        <item>Tarakandi</item>
+        <item>Kishoreganj</item>
+        <item>B.BSetuPurbo</item>
+        <item>Lalmonirhat</item>
+        <item>khulna</item>
+        <item>Rajshahi</item>
+        <item>B.Baria</item>
+        <item>Akhaura</item>
+        <item>Mymensingh</item>
+        <item>Mohanganj</item>
+        <item>Joydebpur</item>
+        <item>Narayanganj</item>
+    </string-array>
+
+    <string name="rajshahi_prompt">Choose Journey Start Point</string>
+
+    <string-array name="rajshahi_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Nilphamari</item>
+        <item>Chilahati</item>
+        <item>Goalonda</item>
+        <item>DhakaCant.</item>
+    </string-array>
+    <string-array name="mymen_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>BBSetuEast</item>
+    </string-array>
+    <string-array name="dinaj_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>Shantahar</item>
+    </string-array>
+    <string-array name="sylhet_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+    </string-array>
+    <string-array name="lal_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+    </string-array>
+    <string-array name="shan_entries">
+        <item>Select</item>
+        <item>Burimari</item>
+        <item>Dinajpur</item>
+    </string-array>
+    <string-array name="chitta_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>Sylhet</item>
+        <item>Chandpur</item>
+        <item>BBSetuPurbo</item>
+    </string-array>
+
+    <string name="khulna_prompt">Choose Journey Start Point</string>
+
+    <string-array name="khulna_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        <item>Rajshahi</item>
+        <item>Saidpur</item>
+    </string-array>
+    <string-array name="ddnbzr_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+        
+    </string-array>
+    <string-array name="kishore_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+    </string-array>
+    <string-array name="bbpurbo_entries">
+        <item>Select</item>
+        <item>Dhaka</item>
+    </string-array>
+
+    <string name="info">Analyzing...</string>
+    <string name="about_menu_name">About</string>
+    <string name="about_message">GPS in Android.\n\n Developed by: Accenture Bangladesh.</string>
+    <string name="unit_km">Kilometer</string>
+    <string name="unit_miles">Miles</string>
+    <string name="setting_unit">Measurement Unit</string>
+
+</resources>

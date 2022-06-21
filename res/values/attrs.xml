@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Gallery1">
+        <attr name="android:galleryItemBackground" />
+        
+        
+    </declare-styleable>
+    
+    <declare-styleable name="info_message">
+        <attr name="first_name" format="string"/>
+        <attr name="last_name" format="string"/>
+        <attr name="ttf_name" format="string"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+      <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" /> 
+	<FrameLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+		<com.google.android.maps.MapView
+	    android:id="@+id/mapView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	   
+	    
+	    />
+		
+		
+		 <!--//Signed API key:  0eeeA1XCqRO1PUaxuBt-2wfHvTvitfXoS_z4o6Q--> 
+    <!--//Debug API key:  0eeeA1XCqRO2fD-xsnRuB-BlxTFHtuQqTJuDbXA-->
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/infoLinearLayout"
+		    android:clickable="true"
+		    android:onClick="centerToCurrentLocation"
+		    >
+		    <TableLayout 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="30dp"
+		        android:background="#97000000"
+		        android:padding="7sp">
+		        <TableRow>
+		            <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/latitude"
+		            android:id="@+id/latitudeText"
+		            android:textColor="#FFFFFF">
+		            </TextView>
+		            <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/longitude"
+		            android:id="@+id/longitudeText"
+		            android:textColor="#FFFFFF">
+		            </TextView>
+		        </TableRow>
+		       	<TableRow>
+		            <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/accuracy"
+		            android:id="@+id/accuracyText"
+		            android:textColor="#FFFFFF">
+		            </TextView>
+		            <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/provider"
+		            android:id="@+id/providerText"
+		            android:textColor="#FFFFFF">
+		            </TextView>
+		        </TableRow>
+		    </TableLayout>
+		</LinearLayout>
+	</FrameLayout>
+</LinearLayout>
