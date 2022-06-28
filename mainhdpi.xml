@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" /> 
+
+    <ScrollView       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/backrepeat"
+        android:scrollbars="vertical" >
+
+        <TableLayout     
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="0dip" >
+
+                <ImageView
+                    android:id="@+id/imageButtonHDPI0"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_span="2"
+                    android:scaleType="center"
+                    android:src="@drawable/banner" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="0dip" >
+
+                <ImageView
+                    android:id="@+id/imageButtonHDPI0a"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_span="2"
+                    android:scaleType="center"
+                    android:src="@drawable/banner2e" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="0dip" >
+
+                <imageButtonHDPI
+                    android:id="@+id/imageButtonHDPI1"
+                    android:layout_width="320dp"
+                    android:layout_height="122dp"
+                    android:layout_span="2"
+                    android:background="@null"
+                    android:onClick="onClick2"
+                    android:src="@drawable/location" />
+
+                
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="0dip" >
+
+                <imageButtonHDPI
+                    android:id="@+id/imageButtonHDPI6"
+                    android:layout_width="155dp"
+                    android:layout_height="122dp"
+                    android:background="@null"
+                    android:onClick="onClick6"
+                    android:src="@drawable/schedule" />
+
+                 <imageButtonHDPI
+                    android:id="@+id/imageButtonHDPI3"
+                    android:layout_width="155dp"
+                    android:layout_height="122dp"
+                    android:background="@null"
+                    android:onClick="onClick3"
+                    android:src="@drawable/location1" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow20a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="0dip" > 
+
+                <ImageView
+                    android:id="@+id/imageButtonHDPI20"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_span="2" 
+                    android:scaleType="center"
+                    android:src="@drawable/banner2f" />  
+            </TableRow>
+            
+                        <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="0dip" >
+
+                <Gallery
+                    android:id="@+id/gallery1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2" />
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_span="2"
+                    android:scaleType="fitXY" />
+            </TableRow>
+            
+
+            
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>
